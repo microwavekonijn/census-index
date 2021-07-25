@@ -1,6 +1,6 @@
 # Census Index
 
-This project contains a series of json object that describe the collections of Census.
+This project contains a series of json objects that describe the collections of Census.
 
 ## Usage
 
