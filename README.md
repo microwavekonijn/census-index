@@ -4,13 +4,15 @@ This project contains a series of json object that describe the collections of C
 
 ## Usage
 
-Main properties
+Main properties:
 
 - `collection` name of the collection(same as the filename);
-- `format` all the properties of the model;
-- `conditions` parameters that can be used to search*.
+- `format` all the properties of the model*;
+- `conditions` parameters that can be used to search**.
 
-*keys ending with a question mark are optional. The question mark is not part of the path.
+*when an object is wrapped in an array it means it is a list of said object.
+
+**keys ending with a question mark are optional. The question mark is not part of the path.
 
 ### Others
 
