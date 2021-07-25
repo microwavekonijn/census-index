@@ -8,5 +8,11 @@
   },
   "conditions": {
     "character_id": "string"
-  }
+  },
+  "commands": [
+    "join",
+    "tree",
+    "timing",
+    "retry"
+  ]
 }

@@ -1,5 +1,6 @@
 {
   "collection": "characters_world",
+  "count": false,
   "format": {
     "character_id": "string",
     "world_id": "string"
@@ -7,5 +8,11 @@
   "conditions": {
     "character_id?": "string",
     "world_id?": "string"
-  }
+  },
+  "commands": [
+    "join",
+    "tree",
+    "timing",
+    "retry"
+  ]
 }

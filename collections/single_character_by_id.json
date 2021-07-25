@@ -1,5 +1,6 @@
 {
   "collection": "single_character_by_id",
+  "count": false,
   "format": {
     "character_id": "string",
     "name": {
@@ -800,6 +801,12 @@
   "conditions": {
     "character_id": "string"
   },
+  "commands": [
+    "join",
+    "tree",
+    "timing",
+    "retry"
+  ],
   "resolve": {
     "online_status": {
       "type": "characters_online_status"

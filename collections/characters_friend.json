@@ -1,5 +1,6 @@
 {
   "collection": "characters_friend",
+  "count": false,
   "format": {
     "character_id": "string",
     "name": "string",
@@ -14,6 +15,12 @@
   "conditions": {
     "character_id": "string"
   },
+  "commands": [
+    "join",
+    "tree",
+    "timing",
+    "retry"
+  ],
   "resolve": {
     "character": {
       "type": "character",

@@ -1,5 +1,6 @@
 {
   "collection": "characters_event_grouped",
+  "count": false,
   "format": {
     "table_type": "string",
     "count": "string",
@@ -9,6 +10,14 @@
     "character_id": "string",
     "type?": "string"
   },
+  "commands": [
+    "join",
+    "tree",
+    "start",
+    "limit",
+    "timing",
+    "retry"
+  ],
   "resolve": {
     "character": {
       "type": "character",

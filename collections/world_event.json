@@ -1,5 +1,6 @@
 {
   "collection": "world_event",
+  "count": false,
   "format": {
     "facility_id": "string",
     "faction_old": "string",
@@ -19,5 +20,12 @@
     "before?": "string",
     "id?": "string",
     "type?": "string"
-  }
+  },
+  "commands": [
+    "join",
+    "tree",
+    "limit",
+    "timing",
+    "retry"
+  ]
 }

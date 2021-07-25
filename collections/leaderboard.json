@@ -1,5 +1,6 @@
 {
   "collection": "leaderboard",
+  "count": false,
   "format": {
     "character_id": "string",
     "value": "string",
@@ -21,6 +22,14 @@
     ],
     "world": "string"
   },
+  "commands": [
+    "join",
+    "tree",
+    "start",
+    "limit",
+    "timing",
+    "retry"
+  ],
   "resolve": {
     "character": {
       "type": "character",

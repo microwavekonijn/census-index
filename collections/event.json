@@ -1,5 +1,6 @@
 {
   "collection": "event",
+  "count": false,
   "format": {
     "character_id": "string",
     "achievement_id": "string",
@@ -18,6 +19,13 @@
       "type?": "string",
       "before": "string"
     }
+  ],
+  "commands": [
+    "join",
+    "tree",
+    "limit",
+    "timing",
+    "retry"
   ],
   "resolve": {
     "character": {

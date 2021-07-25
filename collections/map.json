@@ -1,5 +1,6 @@
 {
   "collection": "map",
+  "count": false,
   "format": {
     "ZoneId": "string",
     "Regions": {
@@ -17,5 +18,11 @@
   "conditions": {
     "world_id": "string",
     "zone_ids": "string"
-  }
+  },
+  "commands": [
+    "join",
+    "tree",
+    "timing",
+    "retry"
+  ]
 }

@@ -71,6 +71,25 @@
     "times.minutes_played?": "string",
     "title_id?": "string"
   },
+  "commands": [
+    "show",
+    "hide",
+    "sort",
+    "has",
+    "resolve",
+    "case",
+    "limit",
+    "limitPerDB",
+    "start",
+    "includeNull",
+    "lang",
+    "join",
+    "tree",
+    "timing",
+    "exactMatchFirst",
+    "distinct",
+    "retry"
+  ],
   "resolve": {
     "item": {
       "type": "characters_item",

@@ -1,10 +1,17 @@
 {
   "collection": "characters_online_status",
+  "count": false,
   "format": {
     "character_id": "string",
     "online_status": "string"
   },
   "conditions": {
     "character_id": "string"
-  }
+  },
+  "commands": [
+    "join",
+    "tree",
+    "timing",
+    "retry"
+  ]
 }
