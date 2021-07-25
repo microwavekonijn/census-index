@@ -1,0 +1,11 @@
+{
+  "collection": "fire_mode_to_projectile",
+  "format": {
+    "fire_mode_id": "string",
+    "projectile_id": "string"
+  },
+  "conditions": {
+    "fire_mode_id?": "string",
+    "projectile_id?": "string"
+  }
+}

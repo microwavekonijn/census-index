@@ -1,0 +1,11 @@
+{
+  "collection": "fire_mode_type",
+  "format": {
+    "fire_mode_type_id": "string",
+    "description": "string"
+  },
+  "conditions": {
+    "description?": "string",
+    "fire_mode_type_id?": "string"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "collection": "characters_weapon_stat_by_faction",
+  "format": {
+    "character_id": "string",
+    "stat_name": "string",
+    "item_id": "string",
+    "vehicle_id": "string",
+    "value_vs": "string",
+    "value_nc": "string",
+    "value_tr": "string",
+    "last_save": "string",
+    "last_save_date": "string"
+  },
+  "conditions": {
+    "character_id?": "string",
+    "item_id?": "string",
+    "last_save?": "string",
+    "last_save_date?": "string",
+    "stat_name?": "string",
+    "value_nc?": "string",
+    "value_tr?": "string",
+    "value_vs?": "string",
+    "vehicle_id?": "string"
+  },
+  "resolve": {
+    "item": {
+      "collection": "item",
+      "path": "item"
+    },
+    "vehicle": {
+      "collection": "vehicle",
+      "path": "vehicle"
+    }
+  }
+}

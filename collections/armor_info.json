@@ -1,0 +1,17 @@
+{
+  "collection": "armor_info",
+  "format": {
+    "armor_amount": "string",
+    "armor_info_id": "string",
+    "armor_facing_id": "string",
+    "armor_percent": "string",
+    "description": "string"
+  },
+  "conditions": {
+    "armor_amount?": "string",
+    "armor_facing_id?": "string",
+    "armor_info_id?": "string",
+    "armor_percent?": "string",
+    "description?": "string"
+  }
+}

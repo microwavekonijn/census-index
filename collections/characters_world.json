@@ -1,0 +1,11 @@
+{
+  "collection": "characters_world",
+  "format": {
+    "character_id": "string",
+    "world_id": "string"
+  },
+  "conditions": {
+    "character_id?": "string",
+    "world_id?": "string"
+  }
+}

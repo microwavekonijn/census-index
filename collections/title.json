@@ -1,0 +1,24 @@
+{
+  "collection": "title",
+  "format": {
+    "title_id": "string",
+    "name": {
+      "de": "string",
+      "en": "string",
+      "es": "string",
+      "fr": "string",
+      "it": "string",
+      "tr": "string"
+    }
+  },
+  "conditions": {
+    "name?": "string",
+    "name.de?": "string",
+    "name.en?": "string",
+    "name.es?": "string",
+    "name.fr?": "string",
+    "name.it?": "string",
+    "name.tr?": "string",
+    "title_id?": "string"
+  }
+}

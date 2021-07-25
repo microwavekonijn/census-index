@@ -1,0 +1,28 @@
+{
+  "collection": "region",
+  "format": {
+    "region_id": "string",
+    "zone_id": "string",
+    "initial_faction_id": "string",
+    "name": {
+      "de": "string",
+      "en": "string",
+      "es": "string",
+      "fr": "string",
+      "it": "string",
+      "tr": "string"
+    }
+  },
+  "conditions": {
+    "initial_faction_id?": "string",
+    "name?": "string",
+    "name.de?": "string",
+    "name.en?": "string",
+    "name.es?": "string",
+    "name.fr?": "string",
+    "name.it?": "string",
+    "name.tr?": "string",
+    "region_id?": "string",
+    "zone_id?": "string"
+  }
+}

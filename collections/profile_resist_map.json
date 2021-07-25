@@ -1,0 +1,13 @@
+{
+  "collection": "profile_resist_map",
+  "format": {
+    "profile_id": "string",
+    "resist_info_id": "string",
+    "rank": "string"
+  },
+  "conditions": {
+    "profile_id?": "string",
+    "rank?": "string",
+    "resist_info_id?": "string"
+  }
+}

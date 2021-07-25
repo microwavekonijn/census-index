@@ -1,0 +1,40 @@
+{
+  "collection": "event",
+  "format": {
+    "character_id": "string",
+    "achievement_id": "string",
+    "timestamp": "string",
+    "zone_id": "string",
+    "world_id": "string",
+    "event_type": "string",
+    "table_type": "string"
+  },
+  "conditions": [
+    {
+      "type?": "string",
+      "after": "string"
+    },
+    {
+      "type?": "string",
+      "before": "string"
+    }
+  ],
+  "resolve": {
+    "character": {
+      "character": "CharacterFormat"
+    },
+    "character_name": {
+      "character": "CharacterFormat"
+    },
+    "characters_stat_history": {
+      "character": {
+        "stats": {
+          "stat_history": "CharacterStatHistoryFormat[]"
+        }
+      }
+    },
+    "attacker": {},
+    "attacker_name": {},
+    "attackers_stat_history": {}
+  }
+}

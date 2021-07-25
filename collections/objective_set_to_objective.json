@@ -1,0 +1,11 @@
+{
+  "collection": "objective_set_to_objective",
+  "format": {
+    "objective_set_id": "string",
+    "objective_group_id": "string"
+  },
+  "conditions": {
+    "objective_group_id?": "string",
+    "objective_set_id?": "string"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collection": "experience",
+  "format": {
+    "experience_id": "string",
+    "description": "string",
+    "xp": "string"
+  },
+  "conditions": {
+    "description?": "string",
+    "experience_id?": "string",
+    "xp?": "string"
+  }
+}

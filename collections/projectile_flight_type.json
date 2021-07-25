@@ -1,0 +1,11 @@
+{
+  "collection": "projectile_flight_type",
+  "format": {
+    "projectile_flight_type_id": "string",
+    "description": "string"
+  },
+  "conditions": {
+    "description?": "string",
+    "projectile_flight_type_id?": "string"
+  }
+}

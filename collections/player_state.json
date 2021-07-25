@@ -1,0 +1,11 @@
+{
+  "collection": "player_state",
+  "format": {
+    "player_state_id": "string",
+    "description": "string"
+  },
+  "conditions": {
+    "description?": "string",
+    "player_state_id?": "string"
+  }
+}

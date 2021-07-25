@@ -1,0 +1,11 @@
+{
+  "collection": "armor_facing",
+  "format": {
+    "armor_facing_id": "string",
+    "description": "string"
+  },
+  "conditions": {
+    "armor_facing_id?": "string",
+    "description?": "string"
+  }
+}

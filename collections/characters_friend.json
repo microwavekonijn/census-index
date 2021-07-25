@@ -1,0 +1,31 @@
+{
+  "collection": "characters_friend",
+  "format": {
+    "character_id": "string",
+    "name": "string",
+    "friend_list": [
+      {
+        "character_id": "string",
+        "last_login_time": "string",
+        "online": "string"
+      }
+    ]
+  },
+  "conditions": {
+    "character_id": "string"
+  },
+  "resolve": {
+    "character": {
+      "collection": "character",
+      "path": "friend_list[]"
+    },
+    "character_name": {
+      "collection": "character_name",
+      "path": "friend_list[]"
+    },
+    "world": {
+      "collection": "characters_world",
+      "path": "friend_list[]"
+    }
+  }
+}

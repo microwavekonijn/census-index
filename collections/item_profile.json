@@ -1,0 +1,11 @@
+{
+  "collection": "item_profile",
+  "format": {
+    "item_id": "string",
+    "profile_id": "string"
+  },
+  "conditions": {
+    "item_id?": "string",
+    "profile_id?": "string"
+  }
+}

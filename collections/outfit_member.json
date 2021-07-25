@@ -1,0 +1,40 @@
+{
+  "collection": "outfit_member",
+  "format": {
+    "outfit_id": "string",
+    "character_id": "string",
+    "member_since": "string",
+    "member_since_date": "string",
+    "rank": "string",
+    "rank_ordinal": "string"
+  },
+  "conditions": {
+    "character_id?": "string",
+    "member_since?": "string",
+    "member_since_date?": "string",
+    "outfit_id?": "string",
+    "rank?": "string",
+    "rank_ordinal?": "string"
+  },
+  "resolve": {
+    "character": {
+      "collection": "character",
+      "path": "character"
+    },
+    "character_name": {
+      "collection": "character_name",
+      "path": "character"
+    },
+    "characters_stat_history": {
+      "collection": "characters_stat_history",
+      "path": "character.stats.stat_history[]"
+    },
+    "online_status": {
+      "collection": "characters_online_status"
+    },
+    "outfit": {
+      "collection": "outfit",
+      "path": "outfit"
+    }
+  }
+}

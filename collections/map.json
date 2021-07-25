@@ -1,0 +1,21 @@
+{
+  "collection": "map",
+  "format": {
+    "ZoneId": "string",
+    "Regions": {
+      "IsList": "string",
+      "Row": [
+        {
+          "RowData": {
+            "RegionId": "string",
+            "FactionId": "string"
+          }
+        }
+      ]
+    }
+  },
+  "conditions": {
+    "world_id": "string",
+    "zone_ids": "string"
+  }
+}

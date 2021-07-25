@@ -1,0 +1,10 @@
+{
+  "collection": "characters_online_status",
+  "format": {
+    "character_id": "string",
+    "online_status": "string"
+  },
+  "conditions": {
+    "character_id": "string"
+  }
+}

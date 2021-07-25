@@ -1,0 +1,39 @@
+{
+  "collection": "characters_event",
+  "format": {
+    "character_id": "string",
+    "achievement_id": "string",
+    "timestamp": "string",
+    "zone_id": "string",
+    "world_id": "string",
+    "event_type": "string",
+    "table_type": "string",
+    "item_id": "string",
+    "item_count": "string",
+    "context": "string"
+  },
+  "conditions": {
+    "character_id": "string",
+    "after?": "string",
+    "before?": "string",
+    "id?": "string",
+    "type?": "string"
+  },
+  "resolve": {
+    "character": {
+      "collection": "character",
+      "path": "character"
+    },
+    "character_name": {
+      "collection": "character_name",
+      "path": "character"
+    },
+    "characters_stat_history": {
+      "collection": "characters_stat_history",
+      "path": "character.stats.stat_history[]"
+    },
+    "attacker": {},
+    "attacker_name": {},
+    "attackers_stat_history": {}
+  }
+}

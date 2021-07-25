@@ -1,0 +1,11 @@
+{
+  "collection": "profile_2",
+  "format": {
+    "profile_id": "string",
+    "description": "string"
+  },
+  "conditions": {
+    "description?": "string",
+    "profile_id?": "string"
+  }
+}

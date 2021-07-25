@@ -1,0 +1,11 @@
+{
+  "collection": "vehicle_faction",
+  "format": {
+    "vehicle_id": "string",
+    "faction_id": "string"
+  },
+  "conditions": {
+    "faction_id?": "string",
+    "vehicle_id?": "string"
+  }
+}

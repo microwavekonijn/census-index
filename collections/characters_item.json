@@ -1,0 +1,12 @@
+{
+  "collection": "characters_item",
+  "format": {
+    "character_id": "string",
+    "item_id": "string",
+    "account_level?": "string",
+    "stack_count?": "string"
+  },
+  "conditions": {
+    "character_id": "string"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collection": "marketing_bundle_item",
+  "format": {
+    "marketing_bundle_id": "string",
+    "item_id": "string",
+    "quantity": "string",
+    "release_time": "string"
+  },
+  "conditions": {
+    "item_id?": "string",
+    "marketing_bundle_id?": "string",
+    "quantity?": "string",
+    "release_time?": "string"
+  }
+}

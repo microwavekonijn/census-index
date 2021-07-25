@@ -1,0 +1,15 @@
+{
+  "collection": "characters_skill",
+  "format": {
+    "character_id": "string",
+    "skill_id": "string",
+    "last_save": "string",
+    "last_save_date": "string"
+  },
+  "conditions": {
+    "character_id?": "string",
+    "last_save?": "string",
+    "last_save_date?": "string",
+    "skill_id?": "string"
+  }
+}

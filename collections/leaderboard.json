@@ -1,0 +1,39 @@
+{
+  "collection": "leaderboard",
+  "format": {
+    "character_id": "string",
+    "value": "string",
+    "rank": "string"
+  },
+  "conditions": {
+    "name": [
+      "Deaths",
+      "Kills",
+      "Score",
+      "Time"
+    ],
+    "period": [
+      "Forever",
+      "Monthly",
+      "Weekly",
+      "Daily",
+      "OneLife"
+    ],
+    "world": "string"
+  },
+  "resolve": {
+    "character": {
+      "collection": "character"
+    },
+    "world": {
+      "collection": "characters_world"
+    },
+    "character_name": {
+      "collection": "character_name"
+    },
+    "characters_stat_history": {
+      "collection": "characters_stat_history",
+      "path": "stats.stat_history[]"
+    }
+  }
+}

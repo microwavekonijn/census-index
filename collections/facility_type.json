@@ -1,0 +1,11 @@
+{
+  "collection": "facility_type",
+  "format": {
+    "facility_type_id": "string",
+    "description": "string"
+  },
+  "conditions": {
+    "description?": "string",
+    "facility_type_id?": "string"
+  }
+}

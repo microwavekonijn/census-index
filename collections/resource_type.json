@@ -1,0 +1,11 @@
+{
+  "collection": "resource_type",
+  "format": {
+    "resource_type_id": "string",
+    "description": "string"
+  },
+  "conditions": {
+    "description?": "string",
+    "resource_type_id?": "string"
+  }
+}

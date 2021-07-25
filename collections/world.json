@@ -1,0 +1,29 @@
+{
+  "collection": "world",
+  "format": {
+    "world_id": "string",
+    "state": "string",
+    "name": {
+      "de": "string",
+      "en": "string",
+      "es": "string",
+      "fr": "string",
+      "it": "string",
+      "tr": "string"
+    },
+    "description": {
+      "de": "string",
+      "en": "string",
+      "es": "string",
+      "fr": "string",
+      "it": "string",
+      "tr": "string"
+    }
+  },
+  "conditions": {
+    "description_t4id": "number",
+    "name_t4id": "number",
+    "state": "string",
+    "world_id": "string"
+  }
+}

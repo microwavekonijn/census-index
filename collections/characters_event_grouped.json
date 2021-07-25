@@ -1,0 +1,26 @@
+{
+  "collection": "characters_event_grouped",
+  "format": {
+    "table_type": "string",
+    "count": "string",
+    "character_id": "string"
+  },
+  "conditions": {
+    "character_id": "string",
+    "type?": "string"
+  },
+  "resolve": {
+    "character": {
+      "collection": "character",
+      "path": "character"
+    },
+    "character_name": {
+      "collection": "character_name",
+      "path": "character"
+    },
+    "characters_stat_history": {
+      "collection": "characters_stat_history",
+      "path": "character.stats.stat_history[]"
+    }
+  }
+}

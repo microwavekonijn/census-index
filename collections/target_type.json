@@ -1,0 +1,11 @@
+{
+  "collection": "target_type",
+  "format": {
+    "target_type_id": "string",
+    "description": "string"
+  },
+  "conditions": {
+    "description?": "string",
+    "target_type_id?": "string"
+  }
+}

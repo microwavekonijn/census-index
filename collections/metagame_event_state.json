@@ -1,0 +1,11 @@
+{
+  "collection": "metagame_event_state",
+  "format": {
+    "metagame_event_state_id": "string",
+    "name": "string"
+  },
+  "conditions": {
+    "metagame_event_state_id?": "string",
+    "name?": "string"
+  }
+}

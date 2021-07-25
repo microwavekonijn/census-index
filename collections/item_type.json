@@ -1,0 +1,13 @@
+{
+  "collection": "item_type",
+  "format": {
+    "item_type_id": "string",
+    "name": "string",
+    "code": "string"
+  },
+  "conditions": {
+    "code?": "string",
+    "item_type_id?": "string",
+    "name?": "string"
+  }
+}

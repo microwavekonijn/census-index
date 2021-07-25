@@ -1,0 +1,13 @@
+{
+  "collection": "weapon_to_attachment",
+  "format": {
+    "weapon_group_id": "string",
+    "attachment_id": "string",
+    "item_id": "string"
+  },
+  "conditions": {
+    "attachment_id?": "string",
+    "item_id?": "string",
+    "weapon_group_id?": "string"
+  }
+}
