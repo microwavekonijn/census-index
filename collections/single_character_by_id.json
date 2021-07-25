@@ -811,9 +811,7 @@
     "online_status": {
       "type": "characters_online_status"
     },
-    "friends": {
-      "type": "characters_friend"
-    },
+    "friends": {},
     "world": {
       "type": "characters_world"
     },
