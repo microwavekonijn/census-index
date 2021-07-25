@@ -21,17 +21,17 @@
   ],
   "resolve": {
     "character": {
-      "character": "CharacterFormat"
+      "type": "character",
+      "inject_at": "character"
     },
     "character_name": {
-      "character": "CharacterFormat"
+      "type": "character_name",
+      "inject_at": "character"
     },
     "characters_stat_history": {
-      "character": {
-        "stats": {
-          "stat_history": "CharacterStatHistoryFormat[]"
-        }
-      }
+      "type": "characters_stat_history",
+      "inject_at": "character.stats.stat_history",
+      "list": true
     },
     "attacker": {},
     "attacker_name": {},

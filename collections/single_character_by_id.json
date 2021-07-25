@@ -802,29 +802,29 @@
   },
   "resolve": {
     "online_status": {
-      "collection": "characters_online_status"
+      "type": "characters_online_status"
     },
     "friends": {
-      "collection": "characters_friends"
+      "type": "characters_friends"
     },
     "world": {
-      "collection": "characters_world"
+      "type": "characters_world"
     },
     "outfit": {
-      "collection": "outfit_member_extended",
-      "path": "outfit"
+      "type": "outfit_member_extended",
+      "inject_at": "outfit"
     },
     "item": {
-      "collection": "characters_items",
-      "path": "items"
+      "type": "characters_items",
+      "inject_at": "items"
     },
     "profile": {
-      "collection": "profile",
-      "path": "profile"
+      "type": "profile",
+      "inject_at": "profile"
     },
     "faction": {
-      "collection": "faction",
-      "path": "faction"
+      "type": "faction",
+      "inject_at": "faction"
     }
   }
 }

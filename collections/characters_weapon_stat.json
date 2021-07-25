@@ -20,12 +20,12 @@
   },
   "resolve": {
     "item": {
-      "collection": "item",
-      "path": "item"
+      "type": "item",
+      "inject_at": "item"
     },
     "vehicle": {
-      "collection": "vehicle",
-      "path": "vehicle"
+      "type": "vehicle",
+      "inject_at": "vehicle"
     }
   }
 }

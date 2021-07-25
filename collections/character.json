@@ -73,56 +73,70 @@
   },
   "resolve": {
     "item": {
-      "items": "ItemFormat[]"
+      "type": "item",
+      "inject_at": "items"
     },
     "item_full": {
-      "items": "ItemFormat[]"
+      "type": "item",
+      "inject_at": "items"
     },
     "profile": {
-      "profile": "ProfileFormat"
+      "type": "profile",
+      "inject_at": "profile"
     },
     "faction": {
-      "faction": "FactionFormat"
+      "type": "faction",
+      "inject_at": "faction"
     },
     "stat": {
-      "stats": {
-        "stat": "CharacterStatFormat[]"
-      }
+      "type": "characters_stat",
+      "inject_at": "stats.stat",
+      "list": true
     },
     "stat_by_faction": {
-      "stats": {
-        "stat_by_faction": "CharacterStatByFactionFormat[]"
-      }
+      "type": "characters_stat_by_faction",
+      "inject_at": "stats.stat_by_faction",
+      "list": true
     },
     "weapon_stat": {
-      "stats": {
-        "weapon_stat": "CharacterWeaponStatFormat[]"
-      }
+      "type": "characters_weapon_stat",
+      "inject_at": "stats.weapon_stat",
+      "list": true
     },
     "weapon_stat_by_faction": {
-      "stats": {
-        "weapon_stat_by_faction": "CharacterWeaponStatByFactionFormat[]"
-      }
+      "type": "chracters_weapon_stat_by_faction",
+      "inject_at": "stats.weapon_stat_by_faction",
+      "list": true
     },
     "stat_history": {
-      "stats": {
-        "stat_history": "CharacterStatHistoryFormat[]"
-      }
+      "type": "characters_stat_history",
+      "inject_at": "stats.stat_history",
+      "list": true
     },
-    "online_status": "CharacterOnlineStatusFormat",
-    "friends": "Omit<CharacterFriendsFormat, 'name'>",
-    "world": "CharacterWorldFormat",
+    "online_status": {
+      "type": "characters_online_status"
+    },
+    "friends": {
+      "type": "characters_friend"
+    },
+    "world": {
+      "type": "characters_world"
+    },
     "outfit": {
-      "outfit": "OutfitFormat & { 'member_since_date': 'string' }"
+      "type": "outfit_member",
+      "inject_at": "outfit"
     },
     "outfit_member": {
-      "outfit_member": "OutfitMemberFormat & OutfitMemberExtendedFormat"
+      "type": "outfit_member",
+      "inject_at": "outfit"
     },
     "outfit_member_extended": {
-      "outfit_member": "OutfitMemberFormat & OutfitMemberExtendedFormat"
+      "type": "outfit_member_extended",
+      "inject_at": "outfit"
     },
     "currency": {
-      "currency": "CharacterCurrencyFormat"
+      "type": "characters_currency",
+      "inject_at": "currency"
     }
   }
 }

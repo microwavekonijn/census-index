@@ -21,16 +21,17 @@
   },
   "resolve": {
     "character": {
-      "collection": "character",
-      "path": "character"
+      "type": "character",
+      "inject_at": "character"
     },
     "character_name": {
-      "collection": "character_name",
-      "path": "character"
+      "type": "character_name",
+      "inject_at": "character"
     },
     "characters_stat_history": {
-      "collection": "characters_stat_history",
-      "path": "character.stats.stat_history[]"
+      "type": "characters_stat_history",
+      "inject_at": "character.stats.stat_history",
+      "list": true
     },
     "attacker": {},
     "attacker_name": {},

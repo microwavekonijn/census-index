@@ -23,17 +23,21 @@
   },
   "resolve": {
     "character": {
-      "collection": "character"
+      "type": "character",
+      "inject_at": ""
     },
     "character_name": {
-      "collection": "character_name"
+      "type": "character_name",
+      "inject_at": ""
     },
     "characters_stat_history": {
-      "collection": "characters_stat_history",
-      "path": "stats.stat_history[]"
+      "type": "characters_stat_history",
+      "inject_at": "stats.stat_history",
+      "list": true
     },
     "world": {
-      "collection": "characters_world"
+      "type": "characters_world",
+      "inject_at": ""
     }
   }
 }

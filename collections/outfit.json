@@ -24,39 +24,43 @@
   },
   "resolve": {
     "leader": {
-      "collection": "character",
-      "path": "leader"
+      "type": "character",
+      "inject_at": "leader"
     },
     "leader_name": {
-      "collection": "character_name",
-      "path": "leader"
+      "type": "character_name",
+      "inject_at": "leader"
     },
     "leaders_stat_history": {
-      "collection": "characters_stat_history",
-      "path": "leader.stats.stat_history"
+      "type": "characters_stat_history",
+      "inject_at": "leader.stats.stat_history",
+      "list": true
     },
     "member": {
-      "collection": "outfit_member",
-      "path": "members[]"
+      "type": "outfit_member",
+      "inject_at": "members",
+      "list": true
     },
-    "rank": {
-      "collection": ""
-    },
+    "rank": {},
     "member_character": {
-      "collection": "character",
-      "path": "members[]"
+      "type": "character",
+      "inject_at": "members",
+      "list": true
     },
     "member_character_name": {
-      "collection": "character_name",
-      "path": "members[]"
+      "type": "character_name",
+      "inject_at": "members",
+      "list": true
     },
     "member_characters_stat_history": {
-      "collection": "characters_online_status",
-      "path": "members[]"
+      "type": "characters_online_status",
+      "inject_at": "members",
+      "list": true
     },
     "member_online_status": {
-      "collection": "characters_stat_history",
-      "path": "members[].character.stat.stat_history[]"
+      "type": "characters_stat_history",
+      "inject_at": "members.character.stat.stat_history",
+      "list": true
     }
   }
 }

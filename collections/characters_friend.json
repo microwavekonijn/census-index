@@ -16,16 +16,19 @@
   },
   "resolve": {
     "character": {
-      "collection": "character",
-      "path": "friend_list[]"
+      "type": "character",
+      "inject_at": "friend_list",
+      "list": true
     },
     "character_name": {
-      "collection": "character_name",
-      "path": "friend_list[]"
+      "type": "character_name",
+      "inject_at": "friend_list",
+      "list": true
     },
     "world": {
-      "collection": "characters_world",
-      "path": "friend_list[]"
+      "type": "characters_world",
+      "inject_at": "friend_list",
+      "list": true
     }
   }
 }
