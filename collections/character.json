@@ -73,7 +73,7 @@
   },
   "resolve": {
     "item": {
-      "type": "item",
+      "type": "characters_item",
       "inject_at": "items"
     },
     "item_full": {
