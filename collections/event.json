@@ -10,16 +10,19 @@
     "event_type": "string",
     "table_type": "string"
   },
-  "conditions": [
-    {
-      "type?": "string",
-      "after": "string"
-    },
-    {
-      "type?": "string",
-      "before": "string"
-    }
-  ],
+  "conditions": {
+    "type?": [
+      "BATTLE_RANK",
+      "ITEM",
+      "ACHIEVEMENT",
+      "DEATH",
+      "KILL",
+      "VEHICLE_DESTROY",
+      "FACILITY_CHARACTER"
+    ],
+    "after?": "string",
+    "before?": "string"
+  },
   "commands": [
     "join",
     "tree",
@@ -41,8 +44,21 @@
       "inject_at": "character.stats.stat_history",
       "list": true
     },
-    "attacker": {},
-    "attacker_name": {},
-    "attackers_stat_history": {}
+    "attacker": {
+      "type": "character",
+      "inject_at": "attacker"
+    },
+    "attacker_name": {
+      "type": "character_name",
+      "inject_at": "attacker"
+    },
+    "attackers_stat_history": {
+      "type": "characters_stat_history",
+      "inject_at": "attacker.stats.stat_history",
+      "hide": [
+        "character_id"
+      ],
+      "list": true
+    }
   }
 }

@@ -93,11 +93,22 @@
   "resolve": {
     "item": {
       "type": "characters_item",
-      "inject_at": "items"
+      "inject_at": "items",
+      "show": [
+        "item_id"
+      ]
     },
     "item_full": {
-      "type": "item",
-      "inject_at": "items"
+      "type": "characters_item",
+      "inject_at": "items",
+      "show": [
+        "item_id"
+      ],
+      "nested": [
+        {
+          "type": "item"
+        }
+      ]
     },
     "profile": {
       "type": "profile",
@@ -147,11 +158,11 @@
     },
     "outfit_member": {
       "type": "outfit_member",
-      "inject_at": "outfit"
+      "inject_at": "outfit_member"
     },
     "outfit_member_extended": {
       "type": "outfit_member_extended",
-      "inject_at": "outfit"
+      "inject_at": "outfit_member"
     },
     "currency": {
       "type": "characters_currency",

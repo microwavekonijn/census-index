@@ -19,7 +19,15 @@
     "after?": "string",
     "before?": "string",
     "id?": "string",
-    "type?": "string"
+    "type?": [
+      "BATTLE_RANK",
+      "ITEM",
+      "ACHIEVEMENT",
+      "DEATH",
+      "KILL",
+      "VEHICLE_DESTROY",
+      "FACILITY_CHARACTER"
+    ]
   },
   "commands": [
     "join",

@@ -812,7 +812,7 @@
       "type": "characters_online_status"
     },
     "friends": {
-      "type": "characters_friends"
+      "type": "characters_friend"
     },
     "world": {
       "type": "characters_world"

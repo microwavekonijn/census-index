@@ -34,8 +34,12 @@
       "type": "characters_online_status"
     },
     "outfit": {
-      "type": "outfit",
-      "inject_at": "outfit"
+      "type": "outfit_member_extended",
+      "inject_at": "outfit",
+      "hide": [
+        "rank",
+        "rank_ordinal"
+      ]
     }
   }
 }
