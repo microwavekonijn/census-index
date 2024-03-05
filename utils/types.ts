@@ -1,0 +1,1 @@
+export type RecordValue<R> = R extends Record<any, infer T> ? T : never;
