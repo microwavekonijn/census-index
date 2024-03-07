@@ -17,7 +17,7 @@ export function compileDocument(collections: IndexedCollection[]): OpenAPISpec.D
 
   return collections
     .map(compileCollection)
-    .reduce<OpenAPISpec.Document<{ }>>(
+    .reduce<OpenAPISpec.Document<{}>>(
       (doc, collection) => {
         // TODO: add xml support
         const schemaKey = toCamelCase(collection.collectionKey);
@@ -33,6 +33,7 @@ export function compileDocument(collections: IndexedCollection[]): OpenAPISpec.D
             {$ref: '#/components/parameters/environment'}
           ],
           get: {
+            tags: ['get'],
             responses: {
               200: {
                 description: '',
@@ -66,6 +67,7 @@ export function compileDocument(collections: IndexedCollection[]): OpenAPISpec.D
             {$ref: '#/components/parameters/environment'}
           ],
           get: {
+            tags: ['count'],
             responses: {
               200: {
                 description: '',
@@ -116,6 +118,7 @@ export function compileDocument(collections: IndexedCollection[]): OpenAPISpec.D
               {$ref: '#/components/parameters/environment'}
             ],
             get: {
+              tags: ['index'],
               responses: {
                 200: {
                   description: '',
