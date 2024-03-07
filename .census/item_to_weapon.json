@@ -1,0 +1,1 @@
+{"version":1,"key":"item_to_weapon","standardCollection":true,"params":[{"name":"item_id","type":"string"},{"name":"weapon_id","type":"string"}],"sample":{"item_id":"1","weapon_id":"1"}}

@@ -1,0 +1,1 @@
+{"version":1,"key":"player_state_group","standardCollection":true,"params":[{"name":"min_cone_of_fire","type":"string"},{"name":"player_state","type":"string"},{"name":"player_state_group_id","type":"string"}],"sample":{"player_state_group_id":"1","player_state":"Sprinting","min_cone_of_fire":"5"}}

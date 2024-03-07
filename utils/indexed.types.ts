@@ -1,6 +1,6 @@
 import {CensusRecord} from "./census.js";
 
-export interface CICollection {
+export interface IndexedCollection {
   version: number;
   key: string;
   standardCollection: boolean;

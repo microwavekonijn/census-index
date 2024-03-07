@@ -1,0 +1,1 @@
+{"version":1,"key":"experience_award_type","standardCollection":true,"params":[{"name":"experience_award_type_id","type":"string"},{"name":"name","type":"string"}],"sample":{"experience_award_type_id":"1","name":"Kill"}}

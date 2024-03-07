@@ -1,0 +1,1 @@
+{"version":1,"key":"item_profile","standardCollection":true,"params":[{"name":"item_id","type":"string"},{"name":"profile_id","type":"string"}],"sample":{"item_id":"1","profile_id":"2"}}

@@ -1,0 +1,1 @@
+{"version":1,"key":"weapon_to_fire_group","standardCollection":true,"params":[{"name":"fire_group_id","type":"string"},{"name":"fire_group_index","type":"string"},{"name":"weapon_id","type":"string"}],"sample":{"weapon_id":"1","fire_group_id":"1","fire_group_index":"0"}}

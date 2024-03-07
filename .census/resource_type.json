@@ -1,0 +1,1 @@
+{"version":1,"key":"resource_type","standardCollection":true,"params":[{"name":"description","type":"string"},{"name":"resource_type_id","type":"string"}],"sample":{"resource_type_id":"1","description":"Health"}}

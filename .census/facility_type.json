@@ -1,0 +1,1 @@
+{"version":1,"key":"facility_type","standardCollection":true,"params":[{"name":"description","type":"string"},{"name":"facility_type_id","type":"string"},{"name":"image_id","type":"string"},{"name":"image_path","type":"string"},{"name":"image_set_id","type":"string"}],"sample":{"facility_type_id":"1","description":"Default"}}

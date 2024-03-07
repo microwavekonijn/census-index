@@ -1,0 +1,1 @@
+{"version":1,"key":"fire_mode_to_projectile","standardCollection":true,"params":[{"name":"fire_mode_id","type":"string"},{"name":"projectile_id","type":"string"}],"sample":{"fire_mode_id":"2","projectile_id":"100"}}

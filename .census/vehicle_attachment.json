@@ -1,0 +1,1 @@
+{"version":1,"key":"vehicle_attachment","standardCollection":true,"params":[{"name":"description","type":"string"},{"name":"faction_id","type":"string"},{"name":"item_id","type":"string"},{"name":"slot_id","type":"string"},{"name":"vehicle_id","type":"string"}],"sample":{"item_id":"38","vehicle_id":"2","faction_id":"1","description":"Sunderer VS","slot_id":"8"}}

@@ -1,0 +1,1 @@
+{"version":1,"key":"characters_event_grouped","standardCollection":true,"params":[{"name":"character_id","type":"string"},{"name":"id","type":"string"},{"name":"type","type":"string"}],"sample":{}}

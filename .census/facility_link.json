@@ -1,0 +1,1 @@
+{"version":1,"key":"facility_link","standardCollection":true,"params":[{"name":"description","type":"string"},{"name":"facility_id_a","type":"string"},{"name":"facility_id_b","type":"string"},{"name":"zone_id","type":"string"}],"sample":{"zone_id":"2","facility_id_a":"201","facility_id_b":"5300","description":"Indar - SO2.WasteTreatment to LO1.CampConnery"}}

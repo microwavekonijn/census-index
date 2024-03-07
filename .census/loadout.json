@@ -1,0 +1,1 @@
+{"version":1,"key":"loadout","standardCollection":true,"params":[{"name":"code_name","type":"string"},{"name":"faction_id","type":"string"},{"name":"loadout_id","type":"string"},{"name":"profile_id","type":"string"}],"sample":{"loadout_id":"1","profile_id":"2","faction_id":"2","code_name":"NC Infiltrator"}}

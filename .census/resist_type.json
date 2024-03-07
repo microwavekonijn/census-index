@@ -1,0 +1,1 @@
+{"version":1,"key":"resist_type","standardCollection":true,"params":[{"name":"description","type":"string"},{"name":"resist_type_id","type":"string"}],"sample":{"resist_type_id":"0","description":"None"}}

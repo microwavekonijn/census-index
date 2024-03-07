@@ -51,7 +51,7 @@ export class CensusAPI {
         return collection
           ? data[`${collection}_list`]
           : data.datatype_list;
-      })
+      });
   }
 
   /**
@@ -72,7 +72,9 @@ export class CensusAPI {
       -1,
     );
 
-    return cleanString.split(', ');
+    return cleanString
+      .split(', ')
+      .sort();
   }
 
   /**

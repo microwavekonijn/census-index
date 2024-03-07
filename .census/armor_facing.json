@@ -1,0 +1,1 @@
+{"version":1,"key":"armor_facing","standardCollection":true,"params":[{"name":"armor_facing_id","type":"string"},{"name":"description","type":"string"}],"sample":{"armor_facing_id":"0","description":"Front"}}

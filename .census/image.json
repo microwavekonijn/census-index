@@ -1,0 +1,1 @@
+{"version":1,"key":"image","standardCollection":true,"params":[{"name":"description","type":"string"},{"name":"image_id","type":"string"},{"name":"path","type":"string"}],"sample":{"image_id":"1","path":"/files/ps2/images/static/1.png"}}

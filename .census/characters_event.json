@@ -1,0 +1,1 @@
+{"version":1,"key":"characters_event","standardCollection":true,"params":[{"name":"after","type":"string"},{"name":"before","type":"string"},{"name":"character_id","type":"string"},{"name":"id","type":"string"},{"name":"timestamp","type":"string"},{"name":"type","type":"string"}],"sample":{}}

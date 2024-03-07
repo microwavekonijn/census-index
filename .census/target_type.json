@@ -1,0 +1,1 @@
+{"version":1,"key":"target_type","standardCollection":true,"params":[{"name":"description","type":"string"},{"name":"target_type_id","type":"string"}],"sample":{"target_type_id":"1","description":"Self"}}

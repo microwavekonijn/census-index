@@ -1,0 +1,1 @@
+{"version":1,"key":"metagame_event_state","standardCollection":true,"params":[{"name":"metagame_event_state_id","type":"string"},{"name":"name","type":"string"}],"sample":{"metagame_event_state_id":"135","name":"started"}}

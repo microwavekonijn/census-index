@@ -1,0 +1,1 @@
+{"version":1,"key":"marketing_bundle_item","standardCollection":true,"params":[{"name":"item_id","type":"string"},{"name":"marketing_bundle_id","type":"string"},{"name":"quantity","type":"string"},{"name":"release_time","type":"string"}],"sample":{"marketing_bundle_id":"38","item_id":"38","quantity":"1","release_time":"1334041200"}}

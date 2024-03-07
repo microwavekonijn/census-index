@@ -1,0 +1,1 @@
+{"version":1,"key":"fire_group_to_fire_mode","standardCollection":true,"params":[{"name":"fire_group_id","type":"string"},{"name":"fire_mode_id","type":"string"},{"name":"fire_mode_index","type":"string"}],"sample":{"fire_group_id":"1","fire_mode_id":"1","fire_mode_index":"0"}}

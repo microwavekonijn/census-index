@@ -1,0 +1,1 @@
+{"version":1,"key":"characters_skill","standardCollection":true,"params":[{"name":"character_id","type":"string"},{"name":"last_save","type":"string"},{"name":"last_save_date","type":"string"},{"name":"skill_id","type":"string"}],"sample":{"character_id":"5428021759088594657","skill_id":"4545","last_save":"1357045480","last_save_date":"2013-01-01 13:04:40.07"}}

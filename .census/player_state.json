@@ -1,0 +1,1 @@
+{"version":1,"key":"player_state","standardCollection":true,"params":[{"name":"description","type":"string"},{"name":"player_state_id","type":"string"}],"sample":{"player_state_id":"0","description":"Standing"}}

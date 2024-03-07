@@ -1,0 +1,1 @@
+{"version":1,"key":"armor_info","standardCollection":true,"params":[{"name":"armor_amount","type":"string"},{"name":"armor_facing_id","type":"string"},{"name":"armor_info_id","type":"string"},{"name":"armor_percent","type":"string"},{"name":"description","type":"string"}],"sample":{"armor_info_id":"20","armor_facing_id":"0","armor_percent":"0","description":"Sunderer - Front"}}

@@ -1,0 +1,1 @@
+{"version":1,"key":"profile_resist_map","standardCollection":true,"params":[{"name":"profile_id","type":"string"},{"name":"rank","type":"string"},{"name":"resist_info_id","type":"string"}],"sample":{"profile_id":"2","resist_info_id":"1560","rank":"1"}}

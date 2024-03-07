@@ -1,0 +1,1 @@
+{"version":1,"key":"projectile_flight_type","standardCollection":true,"params":[{"name":"description","type":"string"},{"name":"projectile_flight_type_id","type":"string"}],"sample":{"projectile_flight_type_id":"1","description":"Ballistic"}}

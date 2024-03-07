@@ -1,0 +1,1 @@
+{"version":1,"key":"experience","standardCollection":true,"params":[{"name":"description","type":"string"},{"name":"experience_award_type_id","type":"string"},{"name":"experience_id","type":"string"},{"name":"xp","type":"string"}],"sample":{"experience_id":"1","description":"Kill Player","xp":"100","experience_award_type_id":"1"}}

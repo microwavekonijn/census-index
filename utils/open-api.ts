@@ -1,4 +1,4 @@
-import {CICollection} from './indexed.types.ts';
+import {IndexedCollection} from './indexed.types.ts';
 import {OpenAPIV3 as OpenAPISpec} from 'openapi-types';
 import {getLargestVersion, toCamelCase} from './utils.ts';
 import {CensusRecord} from './census.ts';
@@ -11,7 +11,7 @@ interface CompileResult {
   parameters: OpenAPISpec.ParameterObject[];
 }
 
-export function compileDocument(collections: CICollection[]): OpenAPISpec.Document {
+export function compileDocument(collections: IndexedCollection[]): OpenAPISpec.Document {
   const ERROR_COMP = 'CensusError';
   const COUNT_COMP = 'Count';
 
@@ -130,7 +130,7 @@ export function compileDocument(collections: CICollection[]): OpenAPISpec.Docume
       } satisfies OpenAPISpec.Document);
 }
 
-export function compileCollection(collection: CICollection): CompileResult {
+export function compileCollection(collection: IndexedCollection): CompileResult {
   return {
     version: '1.0.0',
     collectionKey: collection.key,

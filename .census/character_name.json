@@ -1,0 +1,1 @@
+{"version":1,"key":"character_name","standardCollection":true,"params":[{"name":"character_id","type":"string"},{"name":"name","type":"string"},{"name":"name.first","type":"string"},{"name":"name.first_lower","type":"string"}],"sample":{"character_id":"5428069961297972929","name":{"first":"SchleicherZ","first_lower":"schleicherz"}}}

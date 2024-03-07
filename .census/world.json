@@ -1,0 +1,1 @@
+{"version":1,"key":"world","standardCollection":true,"params":[{"name":"description_t4id","type":"string"},{"name":"name_t4id","type":"string"},{"name":"state","type":"string"},{"name":"world_id","type":"string"}],"sample":{"world_id":"13","state":"online","name":{"en":"Cobalt","de":"Cobalt","es":"Cobalt","fr":"Cobalt","it":"Cobalt","tr":"Cobalt"}}}

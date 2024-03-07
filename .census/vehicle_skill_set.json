@@ -1,0 +1,1 @@
+{"version":1,"key":"vehicle_skill_set","standardCollection":true,"params":[{"name":"display_index","type":"string"},{"name":"faction_id","type":"string"},{"name":"skill_set_id","type":"string"},{"name":"vehicle_id","type":"string"}],"sample":{"vehicle_id":"1","skill_set_id":"37","faction_id":"1","display_index":"4"}}

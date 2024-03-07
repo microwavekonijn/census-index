@@ -1,0 +1,1 @@
+{"version":1,"key":"profile_armor_map","standardCollection":true,"params":[{"name":"armor_info_id","type":"string"},{"name":"profile_id","type":"string"},{"name":"rank","type":"string"}],"sample":{"profile_id":"1","armor_info_id":"1131","rank":"1"}}
