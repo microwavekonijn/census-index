@@ -21,15 +21,14 @@ export function compileDocument(collections: IndexedCollection[]): OpenAPISpec.D
       (doc, collection) => {
         // TODO: add xml support
         const schemaKey = toCamelCase(collection.collectionKey);
-        const pathGet = `/{serviceId}/get/{environment}/${collection.collectionKey}`;
-        const pathCount = `/{serviceId}/count/{environment}/${collection.collectionKey}`;
+        const pathGet = `/get/{environment}/${collection.collectionKey}`;
+        const pathCount = `/count/{environment}/${collection.collectionKey}`;
 
         doc.info.version = getLargestVersion(doc.info.version, collection.version);
         doc.components!.schemas![schemaKey] = collection.schema;
         doc.paths![pathGet] = {
           parameters: [
             ...collection.parameters,
-            {$ref: '#/components/parameters/serviceId'},
             {$ref: '#/components/parameters/environment'}
           ],
           get: {
@@ -63,7 +62,6 @@ export function compileDocument(collections: IndexedCollection[]): OpenAPISpec.D
 
         doc.paths![pathCount] = {
           parameters: [
-            {$ref: '#/components/parameters/serviceId'},
             {$ref: '#/components/parameters/environment'}
           ],
           get: {
@@ -88,7 +86,17 @@ export function compileDocument(collections: IndexedCollection[]): OpenAPISpec.D
           version: '1',
         },
         servers: [
-          {url: 'https://census.daybreakgames.com/'}
+          {
+            url: 'https://census.daybreakgames.com/s:{serviceId}',
+            variables: {
+              serviceId: {
+                default: 'example'
+              }
+            }
+          },
+          {
+            url: 'https://census.daybreakgames.com/',
+          }
         ],
         components: {
           schemas: {
@@ -112,9 +120,8 @@ export function compileDocument(collections: IndexedCollection[]): OpenAPISpec.D
           }
         },
         paths: {
-          '/{serviceId}/get/{environment}/': {
+          '/get/{environment}/': {
             parameters: [
-              {$ref: '#/components/parameters/serviceId'},
               {$ref: '#/components/parameters/environment'}
             ],
             get: {
@@ -147,7 +154,10 @@ export function compileCollection(collection: IndexedCollection): CompileResult 
     parameters: collection.params.map(p => ({
       name: p.name,
       in: 'query',
-      schema: {type: 'string'}
+      schema: {
+        type: 'string',
+        format: inferType(p.name, {})
+      }
     })),
   };
 }
@@ -157,7 +167,7 @@ export function compileCollectionSchema(key: string, sample: RecordValue<CensusR
   if (typeof sample == 'string')
     return {
       type: 'string',
-      // $schema: inferType(key, context),
+      format: inferType(key, context),
     };
 
   if (Array.isArray(sample))
