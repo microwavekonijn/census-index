@@ -1,8 +1,7 @@
 import {IndexedCollection} from './indexed.types.ts';
 import {OpenAPIV3 as OpenAPISpec} from 'openapi-types';
-import {getLargestVersion, toCamelCase} from './utils.ts';
-import {CensusRecord} from './census.ts';
-import {RecordValue} from './types.ts';
+import {getLargestVersion, toCamelCase} from './helpers/utils.ts';
+import {CensusRecord, CensusValue} from './census.types.ts';
 
 interface CompileResult {
   version: string;
@@ -156,18 +155,25 @@ export function compileCollection(collection: IndexedCollection): CompileResult 
       in: 'query',
       schema: {
         type: 'string',
-        format: inferType(p.name, {})
+        format: inferFormatType(p.name, []) // TODO: supply context
       }
     })),
   };
 }
 
-export function compileCollectionSchema(key: string, sample: RecordValue<CensusRecord>, context: CensusRecord): OpenAPISpec.SchemaObject {
+export function compileCollectionSchema(key: string, sample: CensusValue, context: CensusRecord): OpenAPISpec.SchemaObject {
+  if (sample == null)
+    return {
+      type: 'string',
+      nullable: true,
+      enum: [null]
+    };
+
   // TODO: add example
   if (typeof sample == 'string')
     return {
       type: 'string',
-      format: inferType(key, context),
+      format: inferFormatType(key, Object.keys(context)),
     };
 
   if (Array.isArray(sample))
@@ -185,7 +191,7 @@ export function compileCollectionSchema(key: string, sample: RecordValue<CensusR
   };
 }
 
-export function inferType(key: string, context: CensusRecord) {
+export function inferFormatType(key: string, context: string[]) {
   if (key.endsWith('_id'))
     return 'id';
 

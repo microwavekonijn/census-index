@@ -1,1 +1,1 @@
-{"version":1,"key":"reward_set_to_reward_group","standardCollection":true,"params":[{"name":"reward_group_id","type":"string"},{"name":"reward_set_id","type":"string"}],"sample":{"reward_set_id":"843","reward_group_id":"843"}}
+{"version":1,"key":"reward_set_to_reward_group","params":[{"name":"reward_group_id","type":"float"},{"name":"reward_set_id","type":"float"}],"sample":{"reward_set_id":"843","reward_group_id":"843"}}

@@ -1,1 +1,1 @@
-{"version":1,"key":"characters_online_status","standardCollection":true,"params":[],"sample":{}}
+{"version":1,"key":"characters_online_status","params":[{"name":"character_id ","alias":"id","type":"string","mutliple":true,"required":true}],"sample":{"character_id":"5429513069586750193","online_status":"10"}}

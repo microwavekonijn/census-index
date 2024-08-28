@@ -1,2 +1,2 @@
-#!/usr/bin/env tsx
-import './commands'
+#!/bin/sh
+pnpm tsx ./commands.ts "$@"

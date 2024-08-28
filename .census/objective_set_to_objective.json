@@ -1,1 +1,1 @@
-{"version":1,"key":"objective_set_to_objective","standardCollection":true,"params":[{"name":"objective_group_id","type":"string"},{"name":"objective_set_id","type":"string"}],"sample":{"objective_set_id":"4113","objective_group_id":"10137"}}
+{"version":1,"key":"objective_set_to_objective","params":[{"name":"objective_group_id","type":"float"},{"name":"objective_set_id","type":"float"}],"sample":{"objective_set_id":"4113","objective_group_id":"10137"}}

@@ -1,1 +1,1 @@
-{"version":1,"key":"characters_world","standardCollection":true,"params":[{"name":"character_id","type":"string"},{"name":"world_id","type":"string"}],"sample":{"character_id":"5428013610465233041","world_id":"17"}}
+{"version":1,"key":"characters_world","params":[{"name":"character_id ","type":"string","mutliple":true},{"name":"world_id","type":"string"}],"sample":{"character_id":"5428186718630137585","world_id":"1"}}

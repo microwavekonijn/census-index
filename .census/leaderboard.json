@@ -1,1 +1,1 @@
-{"version":1,"key":"leaderboard","standardCollection":true,"params":[],"sample":{}}
+{"version":1,"key":"leaderboard","params":[{"name":"name","type":"string","values":["Deaths","Kills","Score","Time"]},{"name":"period","type":"string","values":["Forever","Monthly","Weekly","Daily","OneLife"]},{"name":"world","type":"string"}],"sample":{"character_id":"5428092148238898497","value":"1049726","rank":"0"}}

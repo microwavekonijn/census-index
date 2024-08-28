@@ -1,1 +1,1 @@
-{"version":1,"key":"profile_2","standardCollection":true,"params":[{"name":"description","type":"string"},{"name":"profile_id","type":"string"}],"sample":{"profile_id":"1","description":"Basic Combatant"}}
+{"version":1,"key":"profile_2","params":[{"name":"description","type":"string"},{"name":"profile_id","type":"float"}],"sample":{"profile_id":"1","description":"Basic Combatant"}}

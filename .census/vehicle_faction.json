@@ -1,1 +1,1 @@
-{"version":1,"key":"vehicle_faction","standardCollection":true,"params":[{"name":"faction_id","type":"string"},{"name":"vehicle_id","type":"string"}],"sample":{"vehicle_id":"1","faction_id":"1"}}
+{"version":1,"key":"vehicle_faction","params":[{"name":"faction_id","type":"float"},{"name":"vehicle_id","type":"float"}],"sample":{"vehicle_id":"1","faction_id":"1"}}

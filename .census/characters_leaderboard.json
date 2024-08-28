@@ -1,1 +1,1 @@
-{"version":1,"key":"characters_leaderboard","standardCollection":true,"params":[],"sample":{}}
+{"version":1,"key":"characters_leaderboard","params":[{"name":"name","type":"string","values":["Deaths","Kills","Score","Time"]},{"name":"period","type":"string","values":["Forever","Monthly","Weekly","Daily","OneLife"]},{"name":"world","type":"string"},{"name":"character_id ","alias":"id","type":"string","mutliple":true}],"sample":{"character_id":"5428092148238898497","value":"1049726","rank":"0"}}

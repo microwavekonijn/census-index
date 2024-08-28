@@ -1,1 +1,1 @@
-{"version":1,"key":"characters_event_grouped","standardCollection":true,"params":[{"name":"character_id","type":"string"},{"name":"id","type":"string"},{"name":"type","type":"string"}],"sample":{}}
+{"version":1,"key":"characters_event_grouped","params":[{"name":"character_id ","alias":"id","type":"string","mutliple":true,"required":true},{"name":"type","type":"string","mutliple":true,"values":["DEATH","DEATHS","KILL","KILLS"]}],"sample":{"table_type":"DEATH","count":"13","character_id":"5429423912994215057"}}
